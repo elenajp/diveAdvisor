@@ -1,11 +1,6 @@
 from __init__ import app
 
 
-@app.route("/hello")
-def hello():
-    return "Hello, World!"
-
-
 @app.route("/")
 def home():
     return ""
@@ -23,4 +18,14 @@ def logout():
 
 @app.route("/profile")
 def profile():
+    return ""
+
+
+@app.route("/add-dive-shop")
+def add_dive_shop():
+    return ""
+
+
+@app.route("/add-instructor")
+def add_dive_shop():
     return ""
